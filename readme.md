@@ -116,6 +116,12 @@ Each tool has an associated prompt registered to assist the MCP client in presen
 - Server logs are output to `stderr` with detailed startup info and tool invocation logs.
 - On startup, the server logs the current working directory and the path to the todo JSON file.
 - Use logs to troubleshoot file permission issues or MCP protocol communication.
+
+<img width="1195" height="861" alt="Screenshot 2025-07-26 at 5 06 56 PM" src="https://github.com/user-attachments/assets/4ef5582d-40df-40f4-9b0e-90bbcb6383d1" />
+<img width="972" height="593" alt="Screenshot 2025-07-26 at 5 07 07 PM" src="https://github.com/user-attachments/assets/c883a309-fca5-4779-907c-dc54be5d5c4b" />
+  
+🎥 [Click here to watch the demo video](https://drive.google.com/file/d/1iGdYnCudl5x57mBlEdS0ibH1qZkvfG14/view?usp=sharing)
+
 ---
 
 ## Contribution & Development
