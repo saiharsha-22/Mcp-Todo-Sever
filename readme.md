@@ -15,6 +15,7 @@ This server exposes a set of MCP tools to add, complete, regress, and list Jira 
 
 ---
 ## Project Structure
+<pre> 
 todo-app/
 │
 ├── cmd/
@@ -36,6 +37,7 @@ todo-app/
 │
 ├── go.mod
 └── go.sum
+</pre>
 
 ---
 
@@ -74,6 +76,7 @@ This opens a network port (e.g., 12345) for MCP JSON-RPC streaming over HTTP.
 ---
 ## Integrating with Claude Desktop
 1. Configure Claude Desktop to launch this MCP server by editing (or creating) `claude_desktop_config.json`:
+<pre>
 {
   "mcpServers": {
     "jira-todo-mcp-server": {
@@ -83,8 +86,9 @@ This opens a network port (e.g., 12345) for MCP JSON-RPC streaming over HTTP.
     }
   }
 }
-2. Restart Claude Desktop after configuration.
-3. Open the Tools sidebar; the Jira TODO tools (`add_jira`, `complete_jira`, `list_todos`, etc.) should be visible and ready for use.
+</pre>
+3. Restart Claude Desktop after configuration.
+4. Open the Tools sidebar; the Jira TODO tools (`add_jira`, `complete_jira`, `list_todos`, etc.) should be visible and ready for use.
 ---
 
 ## Toolset Overview
@@ -111,7 +115,6 @@ Each tool has an associated prompt registered to assist the MCP client in presen
 - Contributions and issues are welcome! Please open GitHub issues or pull requests.
 - Follow Go best practices for code organization (see project structure).
 - Remember to call `flag.Parse()` before registering or running the server.
-- 
 ---
 ## Acknowledgements
 - Uses the [Model Con Protocol Go SDK](https://github.com/modelconprotocol/go-sdk).
