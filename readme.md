@@ -1,6 +1,6 @@
 # Jira TODO MCP Server
 
-A [Model Con Protocol (MCP)](https://modelconprotocol.org/) server implemented in Go for managing Jira TODOs.  
+A [Model Context Protocol (MCP)](https://modelconprotocol.org/) server implemented in Go for managing Jira TODOs.  
 This server exposes a set of MCP tools to add, complete, regress, and list Jira tasks, supporting integration with MCP clients like Claude Desktop.
 
 ---
