@@ -49,23 +49,31 @@ todo-app/
 ---
 ## Installation
 1. Clone this repository:
-git clone https://github.com/yourusername/jira-todo-mcp.git
-cd jira-todo-mcp/cmd/jira-todo
-2. Build the server binary:
+```
+git clone https://github.com/saiharsha-22/Mcp-Todo-Sever.git
+```
+3. Build the server binary:
+```
 go build -o jira-todo
-3. Make sure the binary has execution permission:
+```
+5. Make sure the binary has execution permission:
+```
 chmod +x jira-todo
+```
 ---
 ## Running the Server
 ### Default (stdio mode) - recommended for Claude Desktop
 Simply run:
+```
 ./jira-todo
+```
 This starts the MCP server communicating over standard input/output, suitable for MCP clients that launch it as a subprocess (like Claude Desktop).
 
 ### HTTP streaming mode
 You can also run the server with HTTP streaming mode for clients that support it:
+```
 ./jira-todo -http=:12345
-
+```
 This opens a network port (e.g., 12345) for MCP JSON-RPC streaming over HTTP.
 ---
 ## Configuration & Data Storage
